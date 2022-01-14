@@ -1,0 +1,29 @@
+
+body {
+    background-image:url(../img/k.jpg) ;
+}
+.header-wrapper{
+   padding: 0 auto;
+    height: 100px;
+}
+nav{
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    padding: auto;
+    max-width: 900px;
+    width: 100%;
+    
+}
+
+ul,li{
+    margin: 10px 50px;
+    text-align: center;
+ 
+}
+ul,li,a{
+    color: white;
+}
+
