@@ -3,44 +3,59 @@ body {
     background-image:url(../img/k.jpg) ;
 }
 .header-wrapper{
-   padding: 0 auto;
-    height: 100px;
+   
+   background-color: red;
+   display: flex;
+   height: 50px;
+   align-items: center;
+   padding: 0px 30px;
+   justify-content: space-between;
 }
-nav{
-    margin: 0 auto;
+.child{
+    display: flex;
+    color: white;
+    background-color: green;
     position: relative;
     
 }
-
-ul{
-    display: flex;
-    padding: auto;
-    max-width: 900px;
-    width: 100%;
-    justify-content: flex-end;
+.child li{
+    background-color:greenyellow ;
+    margin:0px 20px;
+    position: relative;
+    
+    
 }
-
-ul,li{
-    margin: 10px 50px;
-    text-align: center;
- 
-}
-ul,li,a{
+.child li a{
     color: white;
 }
 .pc{
-    color:white;
-   
+    color: white;
+    font-size: 35px;
 }
-.child::after{
+.tegi{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  
+}
+
+
+.tegi::after{
     content: " ";
     width: 0%;
     height: 2px;
     color: white;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
+    
 }
-.child::after:hover{
+.tegi::after:hover{
     width: 100%;
+    
 }
