@@ -8,6 +8,8 @@ body {
 }
 nav{
     margin: 0 auto;
+    position: relative;
+    
 }
 
 ul{
@@ -15,7 +17,7 @@ ul{
     padding: auto;
     max-width: 900px;
     width: 100%;
-    
+    justify-content: flex-end;
 }
 
 ul,li{
@@ -26,4 +28,19 @@ ul,li{
 ul,li,a{
     color: white;
 }
-
+.pc{
+    color:white;
+   
+}
+.child::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.child::after:hover{
+    width: 100%;
+}
