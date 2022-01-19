@@ -14,14 +14,47 @@
 </head>
 <body>
     <nav class="header-wrapper">
-        <a href="#"><i class="fas fa-laptop-code pc"></i></a>
-        <ul class="child">
+        <a href="#home"><i class="fas fa-laptop-code pc"></i></a>
+        
+        <!-- <ul id="myLinks" class="child">
             <li><a  class="tegi" href="#home">HOME</a></li>
             <li><a  class="tegi" href="#sale">SALE</a></li>
             <li><a  class="tegi"href="#bestseller">BEST SELLER</a></li>
-            <li><a  class="tegi" href="#">CONTACT</a></li>
+            <li><a  class="tegi" href="#contact">CONTACT</a></li>
             <li><a  class="tegi" href="#autorithation">AUTORIZATION</a></li>
-        </ul>
+        </ul> -->
+        
+            
+            <div id="myLinks" class="child">
+              <a class="tegi" href="#home">HOME</a>
+              <a class="tegi" href="#sale">SALE</a>
+              <a class="tegi"href="#bestseller">BEST SELLER</a>
+              <a  class="tegi" href="#contact">CONTACT</a>
+              <a  class="tegi" href="#autorithation">AUTORIZATION</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars bar"></i>
+            </a>
+          
+          
+          <div style="padding-left:16px">
+           
+          </div>
+          
+          <!-- End smartphone / tablet look -->
+          </div>
+          
+          <!-- <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+          </script> -->
+        
         <div class="toggle-menu">
             <div class="lne line1"></div>
             <div class="line line2"></div>
@@ -30,7 +63,7 @@
     </nav>
 
     <div class="bigHeader">
-        <h1 class="text">კომპიუტერები და მათი აქსესუარები</h1>  
+        <h1 class="text">COMPUTER AND THER ACCESOIRES</h1>  
     </div>
 
     <div class="big" id="home">
@@ -73,8 +106,8 @@
     </div>
 
     <section class="two-box" id="sale">
-        <h1 class="text2">ფასდაკლება</h1>
-        <div class="boxSale">
+        <h1 class="text2">SALE</h1>
+        <!-- <div class="boxSale">
             <div class="small">
                 <img class="picture" src="img/i9.png" alt="laptop">
                 <p>Intel Core i9 11900 KF – 3.5 Ghz Box Version</p>
@@ -105,15 +138,136 @@
                 <h2 class="price">ფასი:2390$</h2>
                 <h2>ფასი:1999$</h2>
             </div>
+        </div> -->
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2" checked>
+            <input type="radio" name="slider" id="slide3" checked>
+            <input type="radio" name="slider" id="slide4" checked>
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <img class="picture" src="img/rtx.png" alt="screen">
+                                <p>Palit Dual RTX 2060 12 GB LHR</p>
+                                <h2 class="price">ფასი:1750$</h2>
+                                <h2>ფასი:999$</h2>
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <img class="picture" src="img/leptop2.jpg" alt="screen">
+                                <p>Palit Dual RTX 2060 12 GB LHR</p>
+                                <h2 class="price">ფასი:1750$</h2>
+                                <h2>ფასი:999$</h2>
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <img class="picture" src="img/pc2.jpg" alt="screen">
+                                <p>Palit Dual RTX 2060 12 GB LHR</p>
+                                <h2 class="price">ფასი:1750$</h2>
+                                <h2>ფასი:999$</h2>
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <img class="picture" src="img/screen3.png" alt="screen">
+                                <p>Palit Dual RTX 2060 12 GB LHR</p>
+                                <h2 class="price">ფასი:1750$</h2>
+                                <h2>ფასი:999$</h2>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                
+            </div>
+            <div id="bellets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                
+            </div>
+
         </div>
+        <!-- <div class="agwera">
+            <p class="agwera-text">tito produqciaze moqmedebs fasdakleba</p>
+        </div> -->
+    </section>
+    <div>
+        <h1 class="text2">BEST SELLER</h1> 
+    </div>
+    
+
+    <div class="big" id="bestseller"> 
+        <div class="wrapper">
+            <img class="picture" src="img/bstsale.png" alt="">
+            <p>Gigabyte Z690 Aorus Elite EX Wi-Fi
+                Intel Core i7 12700 KF – 3.6 Ghz
+            </p>
+            <p>ფასი:1599$</p>
+        </div>
+        <div class="wrapper">
+            <img class="picture" src="img/cooler.png" alt="">
+            <p>NZXT Kraken Z73 RGB 360MM</p>
+            <p>ფასი:1999$</p>
+            
+        </div>
+        <div class="wrapper">
+            <img class="picture" src="img/hdd.png" alt="">
+            <p>ghfhdh</p>
+            <p>ფასი:1999$</p>
+        </div>
+        <div class="wrapper">
+            <img class="picture" src="img/pcc.jpg" alt="">
+            <p>PC – i7 – 8 Gen </p>
+            <p>ფასი:1799$</p>
+            
+        </div>
+        
+        
+        
+    </div>
+    <section class="contact" id="contact">
+       
+        <h1 class="text2">CONTACT</h1>
+        <div class="left">
+            <h2 class="contacta">საკონტაქტო ინფორმაცია:</h2>
+            <ul>
+                <li>
+                    <span class="font">მისამართი:</span><a href="https://www.google.com/maps/place/30+%E1%83%95%E1%83%90%E1%83%A1%E1%83%98%E1%83%9A+%E1%83%9E%E1%83%94%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7053661,44.7775697,17z/data=!3m1!4b1!4m5!3m4!1s0x40440cce3132594f:0x10da8e267de58bf9!8m2!3d41.7053661!4d44.7797584" target="_blank" class="contact">პეტრიაშვილის ქ. 30</a>
+    
+                         
+                </li>
+                <li>
+                    <span class="font">ტელ.:</span><a href="tel:+995 32 222 222" class="contact">+995 32 222 222</a>
+    
+                </li>
+                <li>
+                    <span class="font">ელ. ფოსტა: </span><a href="mailto:name@email.com" class="contact">mail@gmail.com </a>
+                </li>
+            </ul>
+        </div>
+            <div class="right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.702109038411!2d44.77756971543561!3d41.705366079236256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cce3132594f%3A0x10da8e267de58bf9!2zMzAg4YOV4YOQ4YOh4YOY4YOaIOGDnuGDlOGDouGDoOGDmOGDkOGDqOGDleGDmOGDmuGDmOGDoSDhg6Xhg6Phg6nhg5AsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1636060293936!5m2!1ska!2sge" width="848.5" height="464.5" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    
+        </section>
+
     </section>
 
-    <div class="three-box" id="bestseller"> 
-        <h1 class="text2">BEST SELLER</h1>
-    </div>
-
     <section  class="forma" id="autorithation">
-        <h1 class="autoritHead">AUTORITHATION</h1>
+        <h1 class="text2">AUTORITHATION</h1>
         <div class="mainForm">
             <div class="formBox">
                 <div class="form">
@@ -131,6 +285,48 @@
             
         </div>
     </section>
+    <footer class="main-footer">
+        <a href="#home"><i class="fas fa-laptop-code pc"></i></a>
+        <div>
+            <p>home</p>
+            <p>abou us</p>
+            <p>sale</p>
+            <p>bestseller</p>
+        </div>
+
+
+    </footer>
+    <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        <div >
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <div style="padding-left:16px">
+        <h3>Vertical Mobile Navbar</h3>
+        <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+        <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+      </div>
+      
+      <!-- End smartphone / tablet look -->
+      </div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
 
 </body>
 </html>
