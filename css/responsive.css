@@ -1,0 +1,29 @@
+@media (max-width: 1650px){
+    .right{
+        padding-left:50px
+    }
+}
+@media (max-width:1400px){
+    iframe{
+        width: 500px;
+    }
+}
+@media (max-width:1050px) {
+    .contact{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:920px){
+    .child a{
+        display: none;
+    }
+    .fa fa-bars bar{
+        display: inline-block;
+        color: white;
+    }
+    .icon{
+        display: inline-block;
+    }
+}

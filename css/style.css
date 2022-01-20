@@ -10,6 +10,9 @@ body {
 .bar{
     display: none;
 }
+.icon{
+    display: none;
+}
 /* .top-nav{
     display: flex;
     height: 50px;
@@ -165,6 +168,17 @@ flex-wrap: wrap;
 }
 .contact{
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    max-width:2000px;
+    width: 100%;
+    height: auto;
+    
+    border: 1px solid #f2f2f2;
+    flex-wrap: wrap;
+}
+.contact-wrapper{
+    color: white;
 }
 .contacta{
 	color: #3D58A6;
@@ -182,6 +196,8 @@ flex-wrap: wrap;
     padding-left: 300px;
     padding-right: 10px;
 }
+
+
 .sectioncolor{
 	color: #E6E6E6;
 	max-width: 2000px;
