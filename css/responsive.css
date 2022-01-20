@@ -17,13 +17,32 @@
 }
 @media (max-width:920px){
     .child a{
-        display: none;
+        display:block;
+    }
+    .header-wrapper{
+        height: 150px;
     }
     .fa fa-bars bar{
         display: inline-block;
         color: white;
+        width: 50px;
     }
     .icon{
         display: inline-block;
     }
+    
 }
+@media (max-width:570px){
+    iframe{
+        width: 400px;
+    }
+}
+@media (max-width:475px){
+    iframe{
+        width: 200px;
+    }
+    .child{
+        padding: 30PX;
+    }
+}
+
